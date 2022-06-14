@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Meu Curriculo</title>
+</head>
+<!-- corpo da página-->
+<body>
+    <div class="ajuste">
+        <div class="container-fluid container-linear">
+            <div class="row container-card">
+                <!--Container Perfil-->
+                <div class="col-12 offset-lg-3 col-md-3 col-lg-3 card-col">
+                    <div class="card card-perfil">
+                        <div class="img-perfil-card">
+                            <img src="imagens/davi.JPG"
+                                class=" card-image" alt="imagem de perfil">
+                        </div>
+                        <!-- Nome e Cargo-->
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;" class id="Nome-no-html"></h5>
+                            <hr class="hr">
+                            <p style="text-align: center;" class id="Cargo-no-html"></p>
+
+                        <!--botões-->
+                            <div class="botoes-card">
+                                <button onclick="clickNoSobre()" class="btn m-1" id="btn-sobre">
+                                Sobre</button>
+                            </div>
+                            <div class="botoes-card">
+                                <button onclick="clickNoProjetos()" class="btn m-1" id="btn-projeto"> 
+                                Projetos </button>
+                            </div>
+                             <div class="botoes-card">
+                                <button onclick="clickNoExperiencia()" class="btn m-1" id="btn-experiencia"> 
+                                Experiência </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6 text-body">
+                    <div class="text" id="texto-1">
+                        <h1 class="title-text">Olá,</h1>
+                        <H4 class="title-subtitle">Um pouco sobre mim</H4>
+                        <p>Sou técnico de enfermagem, profissão pela qual 
+                            dediquei toda a minha vida profissional, mais de 15 anos e que continua sendo motivo
+                            de gratidão a Deus, não só pelo cargo conquistado por concurso na UTI do que considero o melhor hospital do Sul do Brasil, <a href="https://www.hcpa.edu.br/" target="_blank"> o HCPA</a>,
+                            mas também pelas experiências vividas durante minha tragetória, tais que moldaram meu caráter, definiram meu rumo, minha família e minhas crenças. Grandes vitórias mas também derrotas, tristezas e alegrias, emoções e adrenalina, é inefável.</p>
+                    </div>
+
+                    <div class="text" id="texto-2">
+                        <h1 class="title-text">Projetos</h1>
+                        <H4 class="title-subtitle">Meus planos para o futuro.</H4>
+                        <p>Eu mencionei derrotas em minha vida. Uma delas e a mais importante foi a pandemia, toda a tristeza que presenciei vieram a acrescentar mais alguns quilos de carga em minha vida, que me obrigaram a me afastar da assistência da enfermagem.
+                         <p>Isso tudo me fez refletir se eu realmente passaria os próximos 20 anos da minha vida profissional presenciando tanta tristeza.</p> Então em meio a esse turbilhão renasceu aquela vontade de começar tudo de novo, e dando alguns passos para trás pude ver o quadro todo, e entender que esse é o melhor momento para ressuscitar aquele sonho de jovem.</p>
+                        <p>Então decidi retomar aquela faculdade trancada em 2013, mas melhor, dessa vez eu iria recomeçar do 0 absoluto e formar uma base sólida. E não pude pensar em outro curso a não ser Engenharia de Software. </p>
+                    </div>
+                    <div class="text" id="texto-3">
+                        <h1 class="title-text">Experiência</h1>
+                        <H4 class="title-subtitle">Me detenho a apresentar somente as experiências equivalentes a área de TI</H4>
+                        <p>Em 2013 eu havia começado a cursar Análise e desenvolvimento de sistemas, com a intenção de migrar para área 		de TI, porém por problemas familiares e financeiros tive que trancar. Durante meu curso, pude exercer a função de estagiário em TI na Escola Municipal de 1º Grau Antônio de Godoy em Alvorada durante 7 meses. Dentre as atividades exercidas posso destacar:
+                        <p>- Montagem de uma sala de informática para alunos do primário e ginásio, com a recuperação, formatação em linux e instalação de aplicativos educacionais e jogos em mais de 30 pc's, estes sem acesso a rede.</p>
+                        <p>- Instalação e configuração de pc's da diretoria e secretaria da escola que estavam encostados e sem acesso a internet. Nestes realizei conexão a rede Ethernet cabeada, mantendo um computador para servir de "servidor", com um sistema windows e uma pasta compartihada com todos os nós.</p> 
+                        <p>- Exerci funções de professor aos alunos e suporte aos professores no uso dos diversos equipamentos da escola. </p>                      
+                        Desde os primeiros contatos com a área de TI, mesmo tendo que trancar a faculdade nunca deixei de estudar. E acumulo conhecimentos básicos em diversos assuntos.                                              
+                    </div>
+                </di>
+            </div>
+        </div>
+    </div>
+
+    <!-- container rodapé-->
+    <footer class="container">
+        <div class="row text-center" id="footer-elementos">
+            <div class="col-lg-3 col-12">
+                <div class="links-redes-sociais">
+                    <i class="fa fa-phone" aria-hidden="true"></i> <i class="fa fa-whatsapp"></i>
+                    <h5>(51)99804-6527</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12">
+                <div style="padding: 15px 0 15px 0" class="links-redes-sociais">
+                    <a href="mailto:bortolinidavi770@gmail.com"</a><i class="fa fa-envelope-open" aria-hidden="true"></i>
+                    <p>bortolinidavi770@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12">
+                <div>
+                    <div class="links-redes-sociais">
+                        <a href="http://facebook.com/Davi.CBortolini/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/@DaBortolini/"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/davibortolini/"><i class="fa fa-instagram"></i></a>
+                        <h5>siga-me</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: center;margin-bottom: 10px;">
+            <div class="col-12">
+                <small>© 2021 growdev. All rights reserved <a href="https://www.growdev.com.br"
+                        target="_blank">Growdev</a>.</small>
+                <small>Powered by <a href="https://www.umbler.com/br/seja-bem-vindo?a=jmnv51zk"
+                        target="_blank">Umbler</a></small>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js""></script>
+</body>

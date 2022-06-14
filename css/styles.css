@@ -1,0 +1,168 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: #F5F5F5;
+}
+
+.container-card{
+    padding: 50px 0px 50px 0px; 
+    margin-bottom: 2em;
+}
+
+.img-perfil-card {
+    display: flex; 
+    justify-content:center
+}
+
+.hr{
+    height: 1px; 
+    background-color: black; width: 40%;
+}
+
+.card-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+    margin-top: 1em;
+}
+
+.card-perfil{
+    background-color: #a864f5 !important;
+    box-shadow: 0px 0px 5px #F5F5F5;
+}
+
+.botoes-card {
+    display: flex; 
+    justify-content: left;
+}
+
+#btn-sobre {
+    border-radius: 10px; 
+    padding: 5px 25px;
+    background-color: rgb(29,29,29) !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+#btn-projeto {
+    background-color: rgb(29, 29, 29) !important;
+    color: #ffffff !important;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-weight: 600;
+}
+
+#btn-experiencia {
+    background-color: rgb(29, 29, 29) !important;
+    color: #ffffff !important;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-weight: 600;
+}
+
+.icon-redes-sociais {
+    text-align: center; 
+    padding: 10px
+}
+
+.title-text {
+    margin-top: 1em;
+    font-weight: 700;
+}
+
+.title-subtitle{
+    margin: 1em 0;
+}
+
+.text{
+    padding: 5px 17px;
+}
+
+.links-redes-sociais{
+    text-decoration: none;
+}
+
+.links-redes-sociais i {
+    color: rgb(47, 49, 175);
+    font-size: 25px;
+    padding: 10px;
+}
+
+.btn-card{
+    color:rgb(0, 0, 0) !important;
+}
+
+.footer-elementos {
+    display:flex; 
+    justify-content:space-between;
+}
+
+.sobre{
+    margin-bottom:  1.5em;
+}
+
+.rodape{
+    text-align: center !important;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 900px){
+
+    .container-linear{
+        background: linear-gradient(to left, #ffffff 60%, rgb(65, 138, 87)  40%);
+    }
+
+
+    .card-col{
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        background-color: #9ef4ff !important;
+        box-shadow: -15px 7.5px 15px 5px #292A2D;
+    }
+
+    .card-perfil{
+        background-color: #9ef4ff !important;
+        color: #292A2D;
+        box-shadow: none !important;
+        width:18em;
+        border: none !important;
+       
+    }
+
+    .btn-card{
+        color:rgb(47, 49, 175) !important;
+    }
+
+    .text-body{
+        box-shadow: none;
+    }
+
+    .text{
+        max-width: 430px;
+        vertical-align: middle;
+        margin-top: 2em;
+    }
+
+    #footer-elementos {
+        display:flex !important; 
+        justify-content: center !important;
+        box-shadow: -5px 2.5px 5px 2.5px #292A2D;
+    }
+    .rodape{
+        text-align: center !important;
+        margin-bottom: 10px;
+        background:#ffffff;
+    }
+}
+/*refere a mostra dos textos*/
+#texto-1{
+    display: block;
+}
+
+#texto-2{
+    display: none;
+}
+
+#texto-3{
+	display: none;
+}
